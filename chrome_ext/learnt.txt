@@ -1,0 +1,5 @@
+1. manifest is the most important
+2. popup is called popup.html
+3. page_action is black n white and browser action is always color
+4. popup is nothing but a page on it's own, size can be controlled by changing body size in css
+5. any functionality is added in background.scripts in js files
