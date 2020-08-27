@@ -9,7 +9,7 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html",
     "default_icon": {
-      // to be added
+      "8": "icon_128.png___",
       "16": "icon_128.png",
       "32": "icon_128.png",
       "48": "icon_128.png",
@@ -17,9 +17,9 @@
     }
   },
   "background": {
+    "persistent": true,
     "scripts": ["contextMenus.js"]
   },
   "permissions": ["activeTab", "storage", "contextMenus"],
-
   "manifest_version": 2
 }

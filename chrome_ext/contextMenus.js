@@ -9,6 +9,14 @@ function genericOnClick(info, tab) {
   console.log("tab: " + JSON.stringify(tab));
 }
 
+document.addEventListener(
+  "onclick",
+  function (e) {
+    console.log(e.target);
+  },
+  false
+);
+
 // Create one test item for each context type.
 // var contexts = [
 //   "page",
@@ -84,8 +92,7 @@ function checkboxOnClick(info, tab) {
 //   type: "checkbox",
 //   onclick: checkboxOnClick,
 // });
-// var checkbox2 = chrome.contextMenus.create({
-//   title: "Checkbox2",chrome.contextMenus.create({ title: "Status" });
+// var checkbox2 = chrome.contex, "bac"],ontextMenus.create({ title: "Status" });
 //   type: "checkbox",
 //   onclick: checkboxOnClick,
 // });
@@ -104,13 +111,18 @@ chrome.contextMenus.create({ title: "Oops", parentId: 999 }, function () {
 });
 
 //-------------My code
+const print = () => {
+  let s = "pop";
+  console.log(s);
+  alert(s);
+};
 
 //   const status_option = chrome.contextMenus.create({ title: "Status" });
 // const color_option = chrome.contextMenus.create({ title: "Color" });
 const important_status = chrome.contextMenus.create({
   title: "Important",
   //   parentId: status_option,
-  onclick: genericOnClick,
+  onclick: print,
 });
 const finished_status = chrome.contextMenus.create({
   title: "Finished",

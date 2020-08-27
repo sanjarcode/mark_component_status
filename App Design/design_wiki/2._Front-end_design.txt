@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-23T08:30:51+05:30
+
+====== 2. Front-end design ======
+Created Sunday 23 August 2020
+
+**Keep it simple**
+* Our extension will be used by the user frequently, i.e it is an active extension. So we'd like to have a context menu. This is better than clicking the extension icon. 	This has the following advantages:
+	1. No active icon in the extensions bar(Browser is clean)
+	2. No need to click the extension icon, this can be hassle as the user would have to go to the icon. Context menu would be better
+* For the user who want a click extension icon, we'll support it @later_sometime.
+**Context-Menu**
+* It will be two stage
+* Select the extension first
+* Select the status or color next
+	A suggestion: We can have the status or color selectable. We won't add steps for the users who want only status(like finished, ongoing etc). 
+	**The user will be able to configure the context menu. **So a page is required for proper setup.
+* **Initial design: **We'll have the color and status both available.
+
+

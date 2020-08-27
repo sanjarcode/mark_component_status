@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-23T08:39:22+05:30
+
+====== 2. Context Menu ordering ======
+Created Sunday 23 August 2020
+
+* We'll order the context menu according to frequency of use. This is important for the app to function quickly.
+* This will require an Intelligent or fixed layout issue.

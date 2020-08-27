@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-23T10:20:32+05:30
+
+====== 3. Custom Icons ======
+Created Sunday 23 August 2020
+
+A component is required here

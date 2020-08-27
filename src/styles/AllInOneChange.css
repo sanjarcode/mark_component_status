@@ -1,0 +1,25 @@
+.AllInOneChange {
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  max-width: 25%;
+  margin: 1% 1% 1% 1%;
+  color: #dfdfdf;
+}
+.status_name {
+  flex-grow: initial;
+}
+
+.status_icon {
+}
+
+.flip_switch {
+}
+
+.position_changer {
+}

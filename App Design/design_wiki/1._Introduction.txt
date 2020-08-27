@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-23T08:23:57+05:30
+
+====== 1. Introduction ======
+Created Sunday 23 August 2020
+
+* **Why are we making this app?**
+	Whenever we are browsing the web, we come across sections of it that we wish we could mark as important or remaining. Say a tutorial website, like learncpp.com. There are lots of tutorials out there. We wish to somehow actively bookmark things we've finished, things that are remaining. These **things** are nothing but webpage components.
+* **How does this work**
+	This service used Google Drive API to save all the bookmarks, in order for them to be ubiquitous, and synched across all devices. Google Drive is a very nice and safe place to store the files. This functionality of Drive is something that is encouraged by Google. This way the service is kept free.
+* **How does the app work?**
+	The app is a Chrome browser extension.

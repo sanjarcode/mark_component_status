@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-23T08:37:53+05:30
+
+====== 1. Options ======
+Created Sunday 23 August 2020
+
+This page does the following:
+1. Setup context menu's - only status
+2. Setup aesthetics
+3. Setup user specific icons if required
+4. Intelligent context or fixed context
