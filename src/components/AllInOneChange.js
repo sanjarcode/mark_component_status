@@ -1,19 +1,32 @@
 import React from "react";
 import "../styles/AllInOneChange.css";
 
-export default function AllInOneChange({ status_name, icon_src }) {
+export default function AllInOneChange({
+  status_name,
+  icon_src,
+  status_name_width,
+}) {
+  let ions = icon_src;
   return (
-    <span className="AllInOneChange">
+    <div className="AllInOneChange">
       {/* AllInOneChange Here */}
-      <span className="status_name info">{status_name}</span>
-      <span className="status_icon info">
-        <img src={icon_src} width="4em" height="4em" alt="icon" />
-      </span>
-      <span className="flip_switch info">
+      <div
+        className="status_name"
+        style={{ minWidth: String(status_name_width) }}
+      >
+        {status_name}
+      </div>
+      <div className="status_icon">
+        <img
+          // src={require(icon_src)}
+          alt="icon"
+        />
+      </div>
+      <div className="flip_switch ">
         <input type="button" />
-      </span>
-      <span className="position_changer info">5</span>
-    </span>
+      </div>
+      <div className="position_changer info">5</div>
+    </div>
   );
 }
 
